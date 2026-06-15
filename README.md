@@ -1,108 +1,70 @@
-# Smart Campus Shuttle Booking System
-A full-stack web application designed to solve campus transportation challenges such as overcrowding, scheduling delays, and inefficient booking processes. Built with **React.js, TailwindCSS, Node.js, Express.js, and PostgreSQL**.
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The system provides a seamless shuttle booking experience for students and efficient route and schedule management tools for drivers and administrators. It includes secure authentication, real-time booking updates, and integrated payment processing.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-### User Roles
-- Students: Book seats, view schedules, track bookings
-- Drivers/Admin: Manage routes, schedules, and seat availability
+### `npm start`
 
-### Core Features
-- Role-based dashboards (Student & Driver/Admin)
-- JWT authentication & secure login system
-- Role-Based Access Control (RBAC)
-- Real-time seat availability tracking
-- Booking management system
-- Payment integration with Paystack
-- Automated receipt generation
-- Booking history and transaction records
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Security & API
-- Secure authentication using JWT
-- Protected API routes
-- Input validation and error handling
-- Tested using Postman and Thunder Client
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Tech Stack
+### `npm test`
 
-### Frontend
-- React.js
-- Tailwind CSS
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Backend
-- Node.js
-- Express.js
+### `npm run build`
 
-### Database
-- PostgreSQL
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Integrations & Tools
-- Paystack API (Payments)
-- JWT (Authentication)
-- Postman / Thunder Client (API Testing)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Database Design
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Users table (students, drivers, admins)
-- Bookings table
-- Routes & schedules table
-- Payments table
-- Receipts generation logic
-- Indexed relational schema for optimized queries
+### `npm run eject`
 
-## Installation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 1. Clone repository
-```bash
-git clone https://github.com/your-username/shuttle-booking-system.git
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### 2. Install dependencies
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-#### Backend
-```bash
-cd server
-npm install
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Frontend
-```bash
-cd client
-npm install
-```
+## Learn More
 
-### 3. Configure environment variables
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Create a `.env` file in the backend:
-```env
-PORT=5000
-DATABASE_URL=your_postgres_connection
-JWT_SECRET=your_secret_key
-PAYSTACK_SECRET_KEY=your_paystack_key
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### 4. Run the application
-#### Backend
-```bash
-npm run dev
-```
+### Code Splitting
 
-#### Frontend
-```bash
-npm start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Future Improvements
-- Real-time GPS shuttle tracking
-- Mobile application (React Native)
-- Push notifications for arrivals and delays
-- Advanced analytics dashboard
-- Automated scheduling optimization
+### Analyzing the Bundle Size
 
-## Author
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Favour Ovbude
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
